@@ -4,7 +4,7 @@
 # Architecture
 ## Frontend
 ## [Backend](backend)
-- [Lawmeu API](test)
+- [Lawmeu API](backend/lawmeu_api)
 
 # Legal System
 
