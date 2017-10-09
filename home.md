@@ -3,8 +3,8 @@
 
 # Architecture
 ## Frontend
-[Backend](backend)
-- [Lawmeu API](backend/lawmeu_api)
+## Backend
+- [Lawmeu API](backend/lawmeu-api)
 
 # Legal System
 
