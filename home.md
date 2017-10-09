@@ -3,8 +3,7 @@
 
 # Architecture
 ## Frontend
-## Backend
-### Lawmeu API
+## http://wiki.core.today/backend
 
 # Legal System
 
