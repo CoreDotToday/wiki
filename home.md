@@ -1,4 +1,4 @@
-<!-- TITLE: wiki.Core.Today -->
+<!-- TITLE: Wiki.Core.Today -->
 <!-- SUBTITLE: CoreDotToday Wiki Page -->
 
 # Architecture
