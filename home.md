@@ -8,5 +8,7 @@
 
 # Legal System
 
+# Python
+- [Jupyter](python/jupyter)
 # Machine Learning
 - [Tensorflow](ml/tensorflow)
