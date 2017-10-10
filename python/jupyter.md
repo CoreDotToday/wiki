@@ -6,4 +6,5 @@
 $ pip install ipykernel
 $ jupyter kernelspec list
 $ sudo jupyter kernelspec install-self
+$ python -m pip install ipykernel
 ```
