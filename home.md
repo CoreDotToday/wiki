@@ -12,3 +12,4 @@
 - [Jupyter](python/jupyter)
 # Machine Learning
 - [Tensorflow](ml/tensorflow)
+- [PyTorch](ml/pytorch)
