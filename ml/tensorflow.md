@@ -2,6 +2,7 @@
 <!-- SUBTITLE: A quick summary of Tensorflow -->
 
 # Installation
+https://www.tensorflow.org/install/
 ```
 $ conda create -n tf python=3.5
 $ source activate tf
