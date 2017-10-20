@@ -4,7 +4,6 @@
 # Compression
 ## bz2
 - Burrows-Wheeler algorithm을 사용한 압축방법
-
 ##### 압축해라
 bzip2 ./file.txt
 
