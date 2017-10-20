@@ -8,6 +8,9 @@
 
 # Legal System
 
+# Linux
+- [Basic Commands](linux/basic)
+
 # Python
 - [Jupyter](python/jupyter)
 # Machine Learning
