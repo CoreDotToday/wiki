@@ -4,7 +4,7 @@
 # Compression
 ## bz2
 - Burrows-Wheeler algorithm을 사용한 압축방법
-### 압축해라
+##### 압축해라
 `bzip2 ./file.txt`
 
 ##### 만약 파일이 있으면 강제로 덮어 씌워서 압축해라
