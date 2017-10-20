@@ -31,3 +31,6 @@
 
 ### 압축 풀어라
 `tar -xvzf file.tgz`
+
+## 다수 파일 압축 풀기
+`unzip '*.zip'`
