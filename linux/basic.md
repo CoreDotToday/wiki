@@ -34,4 +34,4 @@
 
 ## 다수 파일 압축 풀기
 - `unzip '*.zip'`
-- ₩for z in *.zip; do unzip $z; done₩
+- `for z in *.zip; do unzip $z; done`
