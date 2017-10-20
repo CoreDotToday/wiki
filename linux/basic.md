@@ -33,4 +33,5 @@
 `tar -xvzf file.tgz`
 
 ## 다수 파일 압축 풀기
-`unzip '*.zip'`
+- `unzip '*.zip'`
+- ₩for z in *.zip; do unzip $z; done₩
