@@ -10,3 +10,11 @@ $ pip install https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow_gpu
 $ python3 -c 'import tensorflow as tf; print(tf.__version__)'
 1.3.0
 ```
+
+# Cuda
+https://developer.nvidia.com/cuda-80-ga2-download-archive
+```
+sudo dpkg -i cuda-repo-ubuntu1404-8-0-local-ga2_8.0.61-1_amd64.deb
+sudo apt-get update
+sudo apt-get install cuda
+```
