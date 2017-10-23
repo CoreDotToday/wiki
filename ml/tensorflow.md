@@ -22,6 +22,14 @@ sudo apt-get update
 sudo apt-get install cuda
 ```
 
+## .bashrc
+```
+# NVIDIA
+export PATH="/usr/local/cuda-8.0/bin:$PATH"
+export LD_LIBRARY_PATH="/usr/local/cuda-8.0/lib64:$LD_LIBRARY_PATH"
+export LD_LIBRARY_PATH="/usr/local/cuda/lib64:$LD_LIBRARY_PATH"
+```
+
 ## cuDNN
 https://developer.nvidia.com/cudnn
 ### a Tar File
