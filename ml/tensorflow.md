@@ -23,8 +23,8 @@ sudo apt-get install cuda
 ```
 
 ## cuDNN
-### a Tar File
 https://developer.nvidia.com/cudnn
+### a Tar File
 ```
 tar -xzvf cudnn-9.0-linux-x64-v7.tgz
 sudo cp cuda/include/cudnn.h /usr/local/cuda/include
