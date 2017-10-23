@@ -14,7 +14,34 @@ $ python3 -c 'import tensorflow as tf; print(tf.__version__)'
 # Cuda
 https://developer.nvidia.com/cuda-80-ga2-download-archive
 ```
+sudo apt install nvidia-381
+sudo apt install nvidia-cuda-dev
+
 sudo dpkg -i cuda-repo-ubuntu1404-8-0-local-ga2_8.0.61-1_amd64.deb
 sudo apt-get update
 sudo apt-get install cuda
+```
+
+## cuDNN
+### a Tar File
+https://developer.nvidia.com/cudnn
+```
+tar -xzvf cudnn-9.0-linux-x64-v7.tgz
+sudo cp cuda/include/cudnn.h /usr/local/cuda/include
+sudo cp cuda/lib64/libcudnn* /usr/local/cuda/lib64
+sudo chmod a+r /usr/local/cuda/include/cudnn.h
+```
+
+### a Debian File
+```
+sudo dpkg -i libcudnn7_7.0.3.11-1+cuda8.0_amd64.deb
+sudo dpkg -i libcudnn7-dev_7.0.3.11-1+cuda8.0_amd64.deb
+sudo dpkg -i libcudnn7-doc_7.0.3.11-1+cuda8.0_amd64.deb
+```
+
+### Test
+```
+cp -r /usr/src/cudnn_samples_v7/ $HOME
+cd $HOME/cudnn_samples_v7/mnistCUDNN
+make clean & make
 ```
