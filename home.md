@@ -19,6 +19,7 @@
 
 # Python
 - [Jupyter](python/jupyter)
+- [형태소 분석기](python/morpheme)
 # Machine Learning
 - [Tensorflow](ml/tensorflow)
 - [PyTorch](ml/pytorch)
