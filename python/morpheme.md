@@ -11,9 +11,7 @@
 ```
 $ pip install -U nltk
 $ python
-```
 
-```
 >>> import nltk
 >>> nltk.download()
 Downloader> d
