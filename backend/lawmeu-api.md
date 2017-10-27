@@ -4,10 +4,10 @@
 # API
 ## Instant search
 - /api/instant/keyword/\<keyword\>
-- /api/instant/number/<number>
+- /api/instant/number/\<number\>
 
 ## Graph Database
-- /g/<number>
+- /g/\<number\>
 
 **20171027 변경사항**
 * cc : caseCourt
