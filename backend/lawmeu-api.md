@@ -3,7 +3,7 @@
 
 # API
 ## Instant search
-- /api/instant/keyword/<keyword>
+- /api/instant/keyword/\<keyword\>
 - /api/instant/number/<number>
 
 ## Graph Database
