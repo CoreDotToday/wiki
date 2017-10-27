@@ -2,6 +2,10 @@
 <!-- SUBTITLE: A quick summary of Lawmeu Api -->
 
 # API
+## Case Info
+- /api/panre/docNumber/\<docNumber\>
+- /api/panre/md/ (준비중)
+
 ## Instant search
 - /api/instant/keyword/\<keyword\>
 - /api/instant/number/\<number\>
