@@ -11,7 +11,8 @@
 - /api/instant/number/\<number\>
 
 ## Graph Database
-- /g/\<number\>
+- /g/\<number\> (52.)
+- /api/prediction/p2v/\<docNumber\>
 
 **20171027 변경사항**
 * cc : caseCourt
