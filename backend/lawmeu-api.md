@@ -3,8 +3,8 @@
 
 # API
 ## Case Info
-- /api/panre/docNumber/\<docNumber\>
-- /api/panre/md/ (준비중)
+- /api/case/docNumber/\<docNumber\>
+- /api/case/md/ (준비중)
 
 ## Instant search
 - /api/instant/keyword/\<keyword\>
