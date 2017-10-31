@@ -14,8 +14,9 @@
 
 # Legal System
 
-# Linux
-- [Basic Commands](linux/basic)
+# OS
+- [Linux Basic Commands](linux/basic)
+- [Mac Basic Commands](mac/basic)
 
 # Python
 - [Jupyter](python/jupyter)
