@@ -35,13 +35,3 @@
 ## 다수 파일 압축 풀기
 - `unzip '*.zip'`
 - `for z in *.zip; do unzip $z; done`
-
-# Bash Shell
-## PDF2PNG
-```
-for i in *.pdf; do
-  name=$i;
-  name=${name%.*};
-  sips -s format png $i --out ${name}.png;
-done
-```
