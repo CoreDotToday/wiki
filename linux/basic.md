@@ -38,7 +38,8 @@
 
 # Bash Shell
 ## PDF2PNG
-```for i in *.pdf; do
+```
+for i in *.pdf; do
   name=$i;
   name=${name%.*};
   sips -s format png $i --out ${name}.png;
