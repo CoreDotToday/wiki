@@ -48,3 +48,5 @@ from matplotlib import font_manager, rc
 font_name = font_manager.FontProperties(fname="/usr/share/fonts/truetype/nanum/NanumGothic.ttf").get_name()
 rc('font', family=font_name)
 ```
+
+- ~/.cache/matplotlib 을 비우는 것을 추천함.
