@@ -41,3 +41,10 @@
 ## 우분투에 나눔글꼴 설치
 `sudo apt-get install fonts-nanum fonts-nanum-coding fonts-nanum-extra`
 `fc-cache -f -v`
+
+## Python Matplotlib 한글 표현
+```
+from matplotlib import font_manager, rc
+font_name = font_manager.FontProperties(fname="/usr/share/fonts/truetype/nanum/NanumGothic.ttf").get_name()
+rc('font', family=font_name)
+```
