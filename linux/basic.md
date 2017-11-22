@@ -38,4 +38,6 @@
 
 
 # Font Installation
+## 우분투에 나눔글꼴 설치
 `sudo apt-get install fonts-nanum fonts-nanum-coding fonts-nanum-extra`
+`fc-cache -f -v`
