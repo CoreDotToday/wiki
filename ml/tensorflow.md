@@ -13,14 +13,13 @@ $ python3 -c 'import tensorflow as tf; print(tf.__version__)'
 
 # Cuda
 https://developer.nvidia.com/cuda-80-ga2-download-archive
-```
-sudo apt install nvidia-381
-sudo apt install nvidia-cuda-dev
 
-sudo dpkg -i cuda-repo-ubuntu1404-8-0-local-ga2_8.0.61-1_amd64.deb
-sudo apt-get update
-sudo apt-get install cuda
-```
+`sudo apt install nvidia-381`
+`sudo apt install nvidia-cuda-dev`
+
+`sudo dpkg -i cuda-repo-ubuntu1404-8-0-local-ga2_8.0.61-1_amd64.deb`
+`sudo apt-get update`
+`sudo apt-get install cuda`
 
 ## .bashrc
 ```
