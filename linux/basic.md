@@ -37,6 +37,20 @@
 - `for z in *.zip; do unzip $z; done`
 
 
+# NVIDIA-Driver
+## Ubuntu 16.04 LTS
+`sudo add-apt-repository ppa:graphics-drivers/ppa`
+`sudo apt update`
+
+`lspci -vnn | grep VGA`
+
+Check the latest driver version at https://www.geforce.com/drivers
+
+`sudo apt install nvidia-{version}`
+`nvidia-smi` # Installation Check
+
+
+
 # Font Installation
 ## 우분투에 나눔글꼴 설치
 `sudo apt-get install fonts-nanum fonts-nanum-coding fonts-nanum-extra`
