@@ -65,3 +65,8 @@ plt.rcParams['axes.unicode_minus'] = False
 ```
 
 - ~/.cache/matplotlib 을 비우는 것을 추천함.
+
+# Ubuntu
+## 저장소 변경
+`vi /etc/apt/sources.list`
+`:%s/kr.archive.ubuntu.com/ftp.daumkakao.com/`
