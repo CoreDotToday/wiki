@@ -8,3 +8,10 @@ $ jupyter kernelspec list
 $ sudo jupyter kernelspec install-self
 $ python -m pip install ipykernel
 ```
+
+# Matplotlib
+## Font List
+```
+import matplotlib.font_manager
+matplotlib.font_manager.findSystemFonts(fontpaths=None, fontext='ttf')
+```
