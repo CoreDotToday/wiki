@@ -49,6 +49,14 @@ Check the latest driver version at https://www.geforce.com/drivers
 `sudo apt install nvidia-{version}`
 `nvidia-smi` # Installation Check
 
+To find Tesla Drivers, look at http://www.nvidia.com/Download/index.aspx
+
+```
+i) sudo dpkg -i nvidia-diag-driver-local-repo-ubuntu1604-384.81_1.0-1_amd64.deb
+ii) sudo apt-get update
+iii) sudo apt-get install cuda-drivers
+iv) sudo reboot
+```
 
 
 # Font Installation
