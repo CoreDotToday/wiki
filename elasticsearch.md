@@ -9,10 +9,13 @@ echo "deb https://artifacts.elastic.co/packages/6.x/apt stable main" | sudo tee 
 sudo apt-get update && sudo apt-get install elasticsearch
 ```
 # Running
+부팅 시 자동으로 실행되도록 등록하기
 `sudo update-rc.d elasticsearch defaults 95 10`
 
+수동으로 시작, 중지, 재시작
 ```sudo -i service elasticsearch start
 sudo -i service elasticsearch stop
+sudo -i service elasticsearch restart
 ```
 
 # Connection Test
