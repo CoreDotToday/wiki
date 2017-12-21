@@ -19,4 +19,19 @@ sudo -i service elasticsearch restart
 ```
 
 # Connection Test
-`curl localhost:9200`
+`> curl localhost:9200`
+{
+  "name" : "hSTZhNF",
+  "cluster_name" : "elasticsearch",
+  "cluster_uuid" : "TyaNhlw7QUGTjT0l8NIYXQ",
+  "version" : {
+    "number" : "6.1.1",
+    "build_hash" : "bd92e7f",
+    "build_date" : "2017-12-17T20:23:25.338Z",
+    "build_snapshot" : false,
+    "lucene_version" : "7.1.0",
+    "minimum_wire_compatibility_version" : "5.6.0",
+    "minimum_index_compatibility_version" : "5.0.0"
+  },
+  "tagline" : "You Know, for Search"
+}
