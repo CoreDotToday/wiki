@@ -25,6 +25,7 @@
 # Python
 - [Jupyter](python/jupyter)
 - [형태소 분석기](python/morpheme)
+- [CoreDotText](python/coredottext)
 # Machine Learning
 - [Tensorflow](ml/tensorflow)
 - [PyTorch](ml/pytorch)
