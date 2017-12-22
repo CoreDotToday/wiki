@@ -9,3 +9,22 @@ echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu xenial/mongod
 sudo apt-get update
 sudo apt-get install -y mongodb-org
 ```
+
+# Enable Auth
+`mongo`
+```
+> use admin
+> db.createUser(
+  {
+    user: "myUserAdmin",
+    pwd: "abc123",
+    roles: [ { role: "userAdminAnyDatabase", db: "admin" } ]
+  }
+)
+```
+
+## Configuration
+```
+security:
+  authorization: enabled
+```
