@@ -40,6 +40,7 @@ sudo -i service elasticsearch restart
 /usr/share/elasticsearch/bin/elasticsearch-plugin
 
 ```
+# https://bitbucket.org/eunjeon/seunjeon/raw/master/elasticsearch/
 bash <(curl -s https://bitbucket.org/eunjeon/seunjeon/raw/master/elasticsearch/scripts/downloader.sh) -e 6.1.1 -p 6.0.0.1
 sudo elasticsearch-plugin install file://`pwd`/elasticsearch-analysis-seunjeon-6.0.0.1.zip
 ```
