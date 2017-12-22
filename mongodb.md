@@ -16,6 +16,13 @@ sudo apt-get install -y mongodb-org
 > use admin
 > db.createUser(
   {
+    user: "Admin",
+    pwd: "abc123",
+    roles: [ { role: "root", db: "admin" } ]
+  }
+)
+> db.createUser(
+  {
     user: "myUserAdmin",
     pwd: "abc123",
     roles: [ { role: "userAdminAnyDatabase", db: "admin" } ]
