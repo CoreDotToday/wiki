@@ -48,10 +48,19 @@ sudo elasticsearch-plugin install file://`pwd`/elasticsearch-analysis-seunjeon-6
 # Tutorial
 ## Create Index
 `curl -XPUT 'localhost:9200/new-index?pretty'`
+{
+  "acknowledged" : true,
+  "shards_acknowledged" : true,
+  "index" : "new-index"
+}
 
 ## Delete Index
 `curl -XDELETE 'localhost:9200/new-index?pretty'`
+{
+  "acknowledged" : true
+}
 
 ## Mapping
 `curl 'localhost:9200/new-index/_mapping/group?pretty'`
+
 
