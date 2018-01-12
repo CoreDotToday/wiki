@@ -79,3 +79,66 @@ GET /_search
 
 
 ## match_all
+GET /_search
+{
+  "query": {"match_all": {}}
+}
+
+## match
+GET /_search
+{
+  "query": {"match": {"field_name": "키워드"}}
+}
+
+
+## Select the Output
+GET /_search
+{
+  "fields" : ["field_name_0", "field_name_1"],
+  "query" : {
+    "term" : {"field_name_0": "키워드"}
+  }
+}
+
+
+## Pagination
+GET /_search
+{
+  "from": 0,
+  "size": 10,
+  "query" : {
+    "term" : {"field_name_0": "키워드"}
+  }
+}
+
+
+## Sorting
+GET /_search
+{
+  "sort": [
+    {"date_0": {"order": "asc""}},
+    {"date_1": {"order": "desc""}},
+    "_score"
+  ],
+  "query" : {
+    "term" : {"field_name_0" : "키워드"}
+  }
+}
+
+
+## Highlight
+GET /_search
+{
+  "query": {
+    "match": {
+      "field_name_0": "키워드"
+    }
+  },
+  "highlight": {
+    "fields": {
+      "field_name_0": {}
+    }
+  }
+}
+
+
