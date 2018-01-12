@@ -79,26 +79,26 @@ sudo elasticsearch-plugin install file://`pwd`/elasticsearch-analysis-seunjeon-6
 
 
 ## match_all
-GET /_search
-{
-  "query": {"match_all": {}}
-}
+> GET /_search
+>{
+>  "query": {"match_all": {}}
+>}
 
 ## match
-GET /_search
-{
-  "query": {"match": {"field_name": "키워드"}}
-}
+>GET /_search
+>{
+>  "query": {"match": {"field_name": "키워드"}}
+>}
 
 
 ## Select the Output
-GET /_search
-{
-  "fields" : ["field_name_0", "field_name_1"],
-  "query" : {
-    "term" : {"field_name_0": "키워드"}
-  }
-}
+>GET /_search
+>{
+>  "fields" : ["field_name_0", "field_name_1"],
+>  "query" : {
+>    "term" : {"field_name_0": "키워드"}
+>  }
+>}
 
 
 ## Pagination
