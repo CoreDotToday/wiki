@@ -48,7 +48,8 @@ sudo elasticsearch-plugin install file://`pwd`/elasticsearch-analysis-seunjeon-6
 ```
 
 # Tutorial
-## Create Index
+## Index
+### Create Index
 `curl -XPUT 'localhost:9200/new-index?pretty'`
 {
   "acknowledged" : true,
@@ -56,13 +57,14 @@ sudo elasticsearch-plugin install file://`pwd`/elasticsearch-analysis-seunjeon-6
   "index" : "new-index"
 }
 
-## Delete Index
+### Delete Index
 `curl -XDELETE 'localhost:9200/new-index?pretty'`
 {
   "acknowledged" : true
 }
 
-## Mapping
+### Mapping
 `curl 'localhost:9200/new-index/_mapping/group?pretty'`
+
 
 
