@@ -69,3 +69,13 @@ sudo elasticsearch-plugin install file://`pwd`/elasticsearch-analysis-seunjeon-6
 
 
 ## _search
+GET /_search
+GET /index/_search
+GET /index/type/_search
+GET /_search
+{
+  "query": { ... }
+}
+
+
+## match_all
