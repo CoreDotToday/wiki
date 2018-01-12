@@ -69,9 +69,12 @@ sudo elasticsearch-plugin install file://`pwd`/elasticsearch-analysis-seunjeon-6
 
 
 ## _search
-`GET /_search`
-`GET /index/_search`
-`GET /index/type/_search`
+>GET /_search
+
+>GET /index/_search
+
+>GET /index/type/_search
+
 > POST /_search
 >{
 >  "query": { ... }
@@ -102,43 +105,43 @@ sudo elasticsearch-plugin install file://`pwd`/elasticsearch-analysis-seunjeon-6
 
 
 ## Pagination
-GET /_search
-{
-  "from": 0,
-  "size": 10,
-  "query" : {
-    "term" : {"field_name_0": "키워드"}
-  }
-}
+>GET /_search
+>{
+>  "from": 0,
+>  "size": 10,
+>  "query" : {
+>    "term" : {"field_name_0": "키워드"}
+>  }
+>}
 
 
 ## Sorting
-GET /_search
-{
-  "sort": [
-    {"date_0": {"order": "asc""}},
-    {"date_1": {"order": "desc""}},
-    "_score"
-  ],
-  "query" : {
-    "term" : {"field_name_0" : "키워드"}
-  }
-}
+>GET /_search
+>{
+>  "sort": [
+>    {"date_0": {"order": "asc""}},
+>    {"date_1": {"order": "desc""}},
+>    "_score"
+>  ],
+>  "query" : {
+>    "term" : {"field_name_0" : "키워드"}
+>  }
+>}
 
 
 ## Highlight
-GET /_search
-{
-  "query": {
-    "match": {
-      "field_name_0": "키워드"
-    }
-  },
-  "highlight": {
-    "fields": {
-      "field_name_0": {}
-    }
-  }
-}
+>GET /_search
+>{
+>  "query": {
+>    "match": {
+>      "field_name_0": "키워드"
+>    }
+>  },
+>  "highlight": {
+>    "fields": {
+>      "field_name_0": {}
+>    }
+>  }
+>}
 
 
