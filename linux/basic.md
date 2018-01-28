@@ -82,3 +82,6 @@ plt.rcParams['axes.unicode_minus'] = False
 ## Port
 ### 열린 포트 체크
 `netstat -pln`
+
+### 접속 체결 체크
+`netstat -nat | grep :80`
