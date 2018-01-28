@@ -78,3 +78,7 @@ plt.rcParams['axes.unicode_minus'] = False
 ## 저장소 변경
 `vi /etc/apt/sources.list`
 `:%s/kr.archive.ubuntu.com/ftp.daumkakao.com/`
+
+## Port
+### 열린 포트 체크
+`netstat -pln`
