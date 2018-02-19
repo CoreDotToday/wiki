@@ -41,7 +41,7 @@ sudo -i service elasticsearch restart
 # Plugin Management
 */usr/share/elasticsearch/bin/elasticsearch-plugin*
 ## X-pack
-
+https://www.elastic.co/guide/en/elasticsearch/reference/6.2/installing-xpack-es.html
 ```
 sudo bin/elasticsearch-plugin install x-pack
 ```
