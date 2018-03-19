@@ -29,6 +29,14 @@ export LD_LIBRARY_PATH="/usr/local/cuda-8.0/lib64:$LD_LIBRARY_PATH"
 export LD_LIBRARY_PATH="/usr/local/cuda/lib64:$LD_LIBRARY_PATH"
 ```
 
+## .bashrc
+```
+export CUDA_HOME=/usr/local/cuda
+export CUDNN=/usr/local/cuDNN
+export LD_LIBRARY_PATH=$CUDA_HOME/lib64:$LD_LIBRARY_PATH
+export LD_LIBRARY_PATH=$CUDNN/lib64:$LD_LIBRARY_PATH
+```
+
 ## cuDNN
 https://developer.nvidia.com/cudnn
 ### a Tar File
