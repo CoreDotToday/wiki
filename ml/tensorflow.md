@@ -30,6 +30,19 @@ Built on Fri_Nov__3_21:07:56_CDT_2017
 Cuda compilation tools, release 9.1, V9.1.85
 ```
 
+`pip show tensorflow-gpu`
+```
+Name: tensorflow-gpu
+Version: 1.6.0
+Summary: TensorFlow helps the tensors flow
+Home-page: https://www.tensorflow.org/
+Author: Google Inc.
+Author-email: opensource@google.com
+License: Apache 2.0
+Location: ~~~/lib/python3.6/site-packages
+Requires: wheel, grpcio, six, gast, absl-py, astor, protobuf, termcolor, numpy, tensorboard
+```
+
 ## .bashrc
 ```
 # NVIDIA
