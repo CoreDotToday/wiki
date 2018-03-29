@@ -11,13 +11,22 @@ $ python3 -c 'import tensorflow as tf; print(tf.__version__)'
 1.3.0
 ```
 
-# Cuda
+# Cuda Version
+## Cuda 8.0
 https://developer.nvidia.com/cuda-80-ga2-download-archive
 
 `sudo apt install nvidia-381`
 `sudo apt install nvidia-cuda-dev`
 
 `sudo dpkg -i cuda-repo-ubuntu1404-8-0-local-ga2_8.0.61-1_amd64.deb`
+`sudo apt-get update`
+`sudo apt-get install cuda`
+
+## Cuda 9.0
+https://developer.nvidia.com/cuda-90-download-archive?target_os=Linux&target_arch=x86_64&target_distro=Ubuntu&target_version=1604&target_type=debnetwork
+
+`sudo dpkg -i cuda-repo-ubuntu1604_9.0.176-1_amd64.deb`
+`sudo apt-key adv --fetch-keys http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1604/x86_64/7fa2af80.pub`
 `sudo apt-get update`
 `sudo apt-get install cuda`
 
@@ -43,6 +52,7 @@ Location: ~~~/lib/python3.6/site-packages
 Requires: wheel, grpcio, six, gast, absl-py, astor, protobuf, termcolor, numpy, tensorboard
 ```
 
+# Cuda Settings
 ## .bashrc
 ```
 # NVIDIA
@@ -59,7 +69,8 @@ export LD_LIBRARY_PATH=$CUDA_HOME/lib64:$LD_LIBRARY_PATH
 export LD_LIBRARY_PATH=$CUDNN/lib64:$LD_LIBRARY_PATH
 ```
 
-## cuDNN
+
+# cuDNN
 https://developer.nvidia.com/cudnn
 ### a Tar File
 ```
