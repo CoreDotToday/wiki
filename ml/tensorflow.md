@@ -29,7 +29,7 @@ https://developer.nvidia.com/cuda-90-download-archive?target_os=Linux&target_arc
 `sudo apt-key adv --fetch-keys http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1604/x86_64/7fa2af80.pub`
 `sudo apt-get update`
 `sudo apt-get install cuda`
-`sudo apt-get -y install cuda-toolkit-9.0`
+`sudo apt-get install cuda-toolkit-9.0`
 
 ## Current version check
 `$ nvcc --version`
