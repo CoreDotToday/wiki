@@ -30,7 +30,7 @@ Built on Fri_Nov__3_21:07:56_CDT_2017
 Cuda compilation tools, release 9.1, V9.1.85
 ```
 
-`pip show tensorflow-gpu`
+`$ pip show tensorflow-gpu`
 ```
 Name: tensorflow-gpu
 Version: 1.6.0
