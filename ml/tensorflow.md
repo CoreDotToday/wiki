@@ -21,6 +21,14 @@ https://developer.nvidia.com/cuda-80-ga2-download-archive
 `sudo apt-get update`
 `sudo apt-get install cuda`
 
+## Current version check
+```$ nvcc --version
+nvcc: NVIDIA (R) Cuda compiler driver
+Copyright (c) 2005-2017 NVIDIA Corporation
+Built on Fri_Nov__3_21:07:56_CDT_2017
+Cuda compilation tools, release 9.1, V9.1.85
+```
+
 ## .bashrc
 ```
 # NVIDIA
