@@ -4,6 +4,10 @@
 # CoreDotText
 
 ## Data Set
+
+### WN18
+https://github.com/mana-ysh/knowledge-graph-embeddings/raw/master/dat/wordnet-mlj12.tar.gz
+
 ### FB15K-237 Knowledge Base Completion Dataset
 https://www.microsoft.com/en-us/download/details.aspx?id=52312
 
