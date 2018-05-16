@@ -15,3 +15,5 @@ $ python -m pip install ipykernel
 import matplotlib.font_manager
 matplotlib.font_manager.findSystemFonts(fontpaths=None, fontext='ttf')
 ```
+
+> http://wiki.core.today/linux/basic#font-installation
