@@ -1,4 +1,16 @@
 Title: AWS Cognito
+# 인증의 종류
+## 서버 기반 인증
+- 세션을 유지하기 위해 서버에서 유저들의 정보를 메모리 / 디스크 / 데이터베이스에 담음.
+### Limitation
+- 세션의 수 한계
+- 확장이 복잡. 특히 CORS 처리 까다로움
+
+## 토큰 기반 인증
+- stateless (상태를 유지하지 않음)
+- 
+
+
 # AuthN vs AuthR
 ## 인증 Authentication (AuthN)
 - 너 누구냐
