@@ -73,6 +73,9 @@ AWS 리소스에 대한 앱의 접근에 대해 제어함
 
 
 # Reference
+
+http://behonestar.tistory.com/112?category=694311
+
 https://github.com/aws-samples/aws-serverless-workshops/tree/master/WebApplication
 
 https://codeburst.io/tutorial-for-building-a-web-application-with-amazon-s3-lambda-dynamodb-and-api-gateway-6d3ddf77f15a
@@ -90,3 +93,8 @@ https://gist.github.com/dkarchmer/76499c17ff947e1f149c
 https://www.slideshare.net/awskr/aws-77390313
 https://www.slideshare.net/awskr/amazon-cognito-77390377
 https://github.com/bskim/gamingonaws2017_serverless
+
+https://serverless-stack.com/chapters/login-with-aws-cognito.html
+https://github.com/AnomalyInnovations/serverless-stack-com/issues/38
+
+https://github.com/awslabs/aws-serverless-auth-reference-app
