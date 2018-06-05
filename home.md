@@ -36,4 +36,4 @@
 - [ElasticSearch](elasticsearch)
 
 # AWS
-- [Cognito](cognito)
+- [Cognito](aws/cognito)
