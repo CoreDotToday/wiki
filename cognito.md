@@ -25,7 +25,7 @@ Title: AWS Cognito
 - 안전한 원격 패스워드 프로토콜 (Sign in 시에 Secure Remote Password(SRP) 사용)
 - SMS 기반 Multi factor 인증 (모바일 텍스트 메시징으로 보안 레이어 더 추가 가능)
 
-
+![2018 06 05 205351](/uploads/cognito/2018-06-05-205351.png "2018 06 05 205351")
 ## Federation Identities
 3rd 파티 ID 제공자를 통해 로그인
 AWS 리소스에 대한 앱의 접근에 대해 제어함
