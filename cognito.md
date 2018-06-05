@@ -27,6 +27,14 @@ Title: AWS Cognito
 4. 클라이언트는 이후 서버에 요청할 때마다 전달받은 토큰을 HTTP 헤더 등에 포함하여 서버에 전달
 5. 서버는 건너오는 토큰을 검증하고, 맞는 요청을 응답
 
+# JWT
+JSON Web Token
+- JSON은 \n 등 개행문자 때문에 HTTP Header 등에 넣기 불편함. 보통 base64 인코딩을 통해 하나의 문자열로 변환하여 사용.
+- Integrity를 위해 HMAC 방식을 사용함.
+## SHA1-256 HMAC
+1. 원본 메시지에서 해쉬값을 추출.
+2. Secret key로 복호화시켜서 token 뒤에 붙임.
+
 
 # Federation
 ![2018 06 05 204658](/uploads/cognito/2018-06-05-204658.png "2018 06 05 204658")
