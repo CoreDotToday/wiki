@@ -41,6 +41,8 @@ JSON Web Token
 
 # Cognito Identity
 ## User Pools
+Amazon Cognito User Pools 토큰은 RS256 알고리즘을 사용하여 서명됨.
+
 - 유저 관리 (모바일, 웹에 로그인, 로그아웃 기능 쉽게 추가)
 - 유저 디렉토리 생성 (완전 관리형)
 - 이메일 인증, MFA 인증 등 안전 강화
