@@ -11,8 +11,24 @@ Title: AWS Cognito
 
 # Cognito Identity
 ## User Pools
-Sign In, Sign Out
+- 유저 관리 (모바일, 웹에 로그인, 로그아웃 기능 쉽게 추가)
+- 유저 디렉토리 생성 (완전 관리형)
+- 이메일 인증, MFA 인증 등 안전 강화
+
+### 기능
+- Sign up, Sign in
+- 이메일 혹은 전화번호 확인
+- 패스워드 분실/리셋
+- 사용자 프로파일
+- SMS 기반 MFA
+- 토큰 기반 인증 (OpenID Connect(OIDC), OAuth 2.0 지원)
+- 안전한 원격 패스워드 프로토콜 (Sign in 시에 Secure Remote Password(SRP) 사용)
+- SMS 기반 Multi factor 인증 (모바일 텍스트 메시징으로 보안 레이어 더 추가 가능)
+
+
 ## Federation Identities
 3rd 파티 ID 제공자를 통해 로그인
 AWS 리소스에 대한 앱의 접근에 대해 제어함
+
+
 
