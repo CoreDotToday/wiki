@@ -1,13 +1,24 @@
 Title: AWS Cognito
+# AuthN vs AuthR
+## 인증 Authentication (AuthN)
+- 너 누구냐
+
+## 인가 Authorization (AuthR)
+- 무얼 허용하고 무얼 거부할 것인가
+
+
 # 인증의 종류
 ## 서버 기반 인증
 - 세션을 유지하기 위해 서버에서 유저들의 정보를 메모리 / 디스크 / 데이터베이스에 담음.
+- 
 ### Limitation
 - 세션의 수 한계
 - 확장이 복잡. 특히 CORS 처리 까다로움
 
 ## 토큰 기반 인증
 - stateless (상태를 유지하지 않음)
+- scalability (토큰을 클라이언트에 저장하기 때문에)
+- extensibility (로그인 정보의 확장성)
 
 ### 인증 절차
 1. Sign in
@@ -16,13 +27,6 @@ Title: AWS Cognito
 4. 클라이언트는 이후 서버에 요청할 때마다 전달받은 토큰을 HTTP 헤더 등에 포함하여 서버에 전달
 5. 서버는 건너오는 토큰을 검증하고, 맞는 요청을 응답
 
-
-# AuthN vs AuthR
-## 인증 Authentication (AuthN)
-- 너 누구냐
-
-## 인가 Authorization (AuthR)
-- 무얼 허용하고 무얼 거부할 것인가
 
 # Federation
 ![2018 06 05 204658](/uploads/cognito/2018-06-05-204658.png "2018 06 05 204658")
