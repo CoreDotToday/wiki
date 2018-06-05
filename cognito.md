@@ -42,6 +42,7 @@ JSON Web Token
 # Cognito Identity
 ## User Pools
 Amazon Cognito User Pools 토큰은 RS256 알고리즘을 사용하여 서명됨.
+https://aws.amazon.com/ko/blogs/korea/amazon-cognito-your-user-pools-now-generally-available/
 
 - 유저 관리 (모바일, 웹에 로그인, 로그아웃 기능 쉽게 추가)
 - 유저 디렉토리 생성 (완전 관리형)
@@ -71,3 +72,21 @@ AWS 리소스에 대한 앱의 접근에 대해 제어함
 
 
 
+# Reference
+https://github.com/aws-samples/aws-serverless-workshops/tree/master/WebApplication
+
+https://codeburst.io/tutorial-for-building-a-web-application-with-amazon-s3-lambda-dynamodb-and-api-gateway-6d3ddf77f15a
+
+https://sanderknape.com/2017/02/getting-started-with-aws-cognito/
+https://medium.freecodecamp.org/user-management-with-aws-cognito-3-3-last-steps-to-full-fledged-73f4a3a9f05e
+
+예전 버전 : http://edtheron.me/projects/store-messages-aws-dynamodb-lambda-api-gateway-cognito
+https://github.com/aws-samples/aws-amplify-graphql
+
+서명 : https://docs.aws.amazon.com/ko_kr/general/latest/gr/sigv4-signed-request-examples.html
+https://forums.aws.amazon.com/thread.jspa?threadID=246580
+https://gist.github.com/dkarchmer/76499c17ff947e1f149c
+
+https://www.slideshare.net/awskr/aws-77390313
+https://www.slideshare.net/awskr/amazon-cognito-77390377
+https://github.com/bskim/gamingonaws2017_serverless
