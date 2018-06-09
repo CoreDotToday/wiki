@@ -49,3 +49,38 @@
 }
 
 ```
+
+#### Example
+```
+{'body-json': {},
+ 'context': {'account-id': '',
+  'api-id': 'g9ulha7g39',
+  'api-key': '',
+  'authorizer-principal-id': '',
+  'caller': '',
+  'cognito-authentication-provider': '',
+  'cognito-authentication-type': '',
+  'cognito-identity-id': '',
+  'cognito-identity-pool-id': '',
+  'http-method': 'GET',
+  'request-id': '9621af84-6b91-11e8-b44c-a764abb96d1a',
+  'resource-id': 'zkg8wj',
+  'resource-path': '/public-contents',
+  'source-ip': '211.197.4.219',
+  'stage': 'handson',
+  'user': '',
+  'user-agent': 'python-requests/2.18.4',
+  'user-arn': ''},
+ 'params': {'header': {'Accept': '*/*',
+   'Accept-Encoding': 'gzip, deflate',
+   'Host': 'g9ulha7g39.execute-api.ap-northeast-2.amazonaws.com',
+   'User-Agent': 'python-requests/2.18.4',
+   'X-Amzn-Trace-Id': 'Root=1-5b1b4356-6a606680f4227493402ed5f3',
+   'X-Forwarded-For': '211.197.4.219',
+   'X-Forwarded-Port': '443',
+   'X-Forwarded-Proto': 'https'},
+  'path': {},
+  'querystring': {'a': '1'}},
+ 'stage-variables': {},
+ 'test': 1}
+ ```
