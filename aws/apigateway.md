@@ -2,7 +2,7 @@
 <!-- SUBTITLE: A quick summary of Apigateway -->
 
 ### 본문 매핑 템플릿
-```
+```json
 ##  See http://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-mapping-template-reference.html
 ##  This template will pass through all parameters including path, querystring, header, stage variables, and context through to the integration endpoint via the body/payload
 #set($allParams = $input.params())
