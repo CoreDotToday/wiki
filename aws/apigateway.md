@@ -51,7 +51,8 @@
 ```
 
 #### Example
-```
+ 
+```json
 {'body-json': {},
  'context': {'account-id': '',
   'api-id': 'g9ulha7g39',
@@ -83,4 +84,5 @@
   'querystring': {'a': '1'}},
  'stage-variables': {},
  'test': 1}
- ```
+```
+
