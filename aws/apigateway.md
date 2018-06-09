@@ -52,7 +52,7 @@
 
 #### Example
  
-```json
+```python
 {'body-json': {},
  'context': {'account-id': '',
   'api-id': 'g9ulha7g39',
