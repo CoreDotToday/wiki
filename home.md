@@ -30,6 +30,7 @@
 # Machine Learning
 - [Tensorflow](ml/tensorflow)
 - [PyTorch](ml/pytorch)
+- [DeepLab)(ml/deeplab)
 
 # Open Source
 - [MongoDB](mongodb)
