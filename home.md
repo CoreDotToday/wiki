@@ -12,9 +12,6 @@
 - 인용 : > 또는 >>>
 - 코드 : \₩ 또는 \₩₩₩
 
-# Legal System
-- [Korean Legal System](legalsystem/format)
-
 # Git
 - [Git Basic](git)
 
@@ -39,3 +36,6 @@
 # AWS
 - [Cognito](aws/cognito)
 - [API Gateway](aws/apigateway)
+
+# Culture
+- [Pair Programming](culture/pairing)
