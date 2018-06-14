@@ -2,6 +2,7 @@
 <!-- SUBTITLE: A quick summary of Git -->
 
 # Git
+![Git Flow Overall Graph](/uploads/git-flow-overall-graph.png "Git Flow Overall Graph")
 ## PUSH
 git add .
 git commit -m 'message'
