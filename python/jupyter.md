@@ -55,11 +55,6 @@ pip install --install-option="--include-path=/usr/local/include/" --install-opti
 # PySpark
 `pip install findspark`를 하고 import 해서 사용할 것.
 
-```
-import findspark
-findspark.init()
-import pyspark
-```
 
 ```
 $ vi ~/.bashrc
@@ -69,3 +64,9 @@ export PYSPARK_DRIVER_PYTHON=jupyter
 export PYSPARK_DRIVER_PYTHON_OPTS=’notebook’
 ```
 
+##### Example in Jupyter Notebook
+```
+import findspark
+findspark.init()
+import pyspark
+```
