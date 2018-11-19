@@ -73,9 +73,16 @@ ln -s /usr/hdp/2.6.5.0-292/slider /usr/hdp/current/slider-client
 ```
 
 ## zookeeper
+먼저 `ls /usr/hdp/current/zookeeper-client`를 통해 내용이 비었는지 확인한다.
+내용이 비었으면.. 연결해 주자.
+
 ```
 apt-get install zookeeper
+mv /usr/hdp/current/zookeeper-client /usr/hdp/current/zookeeper-client-old
 ln -s /usr/hdp/2.6.5.0-292/zookeeper/ /usr/hdp/current/zookeeper-client
+
+mv /usr/hdp/current/zookeeper-server /usr/hdp/current/zookeeper-server-old
+ln -s /usr/hdp/2.6.5.0-292/zookeeper/ /usr/hdp/current/zookeeper-server
 ```
 
 # Setting
