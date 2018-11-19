@@ -72,7 +72,11 @@ https://dev.mysql.com/downloads/connector/j/
 ln -s /usr/hdp/2.6.5.0-292/slider /usr/hdp/current/slider-client
 ```
 
-
+## zookeeper
+```
+apt-get install zookeeper
+ln -s /usr/hdp/2.6.5.0-292/zookeeper/ /usr/hdp/current/zookeeper-client
+```
 
 # Setting
 ## Hostname
