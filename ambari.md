@@ -67,6 +67,12 @@ https://dev.mysql.com/downloads/connector/j/
 - https://dev.mysql.com/get/Downloads/Connector-J/mysql-connector-java-8.0.13.tar.gz
 
 
+## slider-client
+```
+ln -s /usr/hdp/2.6.5.0-292/slider /usr/hdp/current/slider-client
+```
+
+
 
 # Setting
 ## Hostname
@@ -105,6 +111,12 @@ cat $HOME/id_rsa.pub >> $HOME/.ssh/authorized_keys
 4. `known_hosts`에 주소를 추가하기 위해 접속을 시도함.
 ```
 ssh {HOST}
+```
+
+## hugepages
+```
+sudo apt install hugepages
+sudo hugeadm --thp-never
 ```
 
 # master
