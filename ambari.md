@@ -24,8 +24,9 @@ apt-get install ./ambari-server*.deb   #This should also pull in postgres packag
 ```
 
 ## Setup & Start Ambari Server
-```ambari-server setup```
-```ambari-server start```
+
+`ambari-server setup`
+`ambari-server start`
 
 ## Install and Start Ambari Agent on All Hosts
 
