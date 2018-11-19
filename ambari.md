@@ -46,6 +46,10 @@ chmod 644 ~/.ssh/id_rsa.pub
 ```
 cat $HOME/id_rsa.pub >> $HOME/.ssh/authorized_keys
 ```
+3. `known_hosts`에 주소를 추가하기 위해 접속을 시도함.
+```
+ssh {HOST}
+```
 
 # master
 
