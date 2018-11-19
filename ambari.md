@@ -54,6 +54,20 @@ sudo python /usr/lib/ambari-agent/lib/ambari_agent/HostCleanup.py --skip=users
 ```
 
 
+## MySQL
+파일 이름을 mysql-connector-java.jar 로 바꾸어서 할 것.
+그렇지 않으면, `/var/lib/ambari-server/resources`에서 심볼릭 링크라도 걸어주자..
+```
+wget https://dev.mysql.com/get/Downloads/Connector-J/mysql-connector-java_8.0.13-1ubuntu16.04_all.deb
+dpkg -i mysql-connector-java_8.0.13-1ubuntu16.04_all.deb
+ambari-server setup --jdbc-db=mysql --jdbc-driver=/usr/share/java/mysql-connector-java-8.0.13.jar
+```
+
+https://dev.mysql.com/downloads/connector/j/
+- https://dev.mysql.com/get/Downloads/Connector-J/mysql-connector-java-8.0.13.tar.gz
+
+
+
 # Setting
 ## Hostname
 ```
