@@ -34,6 +34,9 @@ apt-get install ./ambari-server*.deb   #This should also pull in postgres packag
 # Setting
 ## SSH Key Generation
 1. `ssh-keygen`를 통해 .ssh에 `id_rsa.pub`과 `id_rsa`를 생성.
+```
+ssh-keygen
+```
 - `id_rsa`는 private key로 절대 노출되면 안됨.
 - `id_rsa.pub`은 public key로 이것을 이용하여 인증함.
 2. 접근 권한을 설정함.
