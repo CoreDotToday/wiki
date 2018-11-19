@@ -46,6 +46,12 @@ apt-get install ambari-server
 `ambari-server start`
 
 ## Install and Start Ambari Agent on All Hosts
+```
+sudo apt-get install ambari-agent
+sudo vi /etc/ambari-agent/conf/ambari-agent.ini
+
+sudo python /usr/lib/ambari-agent/lib/ambari_agent/HostCleanup.py --skip=users
+```
 
 
 # Setting
@@ -53,6 +59,11 @@ apt-get install ambari-server
 ```
 sudo vi /etc/hostname
 sudo vi /etc/hosts
+```
+
+## Time Setting
+```
+sudo apt install ntp
 ```
 
 ## SSH Key Generation
@@ -72,7 +83,7 @@ chmod 600 ~/.ssh/id_rsa.pub
 chmod 600 ~/.ssh/authorized_keys
 ```
 
-3. `id_rsa.pub`을 리모트 서버로 복사하고 `$HOME/.ssh/authorized_keys` 를 생성함. (복사 굳이 필요 없음)
+3. `id_rsa.pub`을 리모트 서버로 복사하고 `$HOME/.ssh/authorized_keys` 를 생성함. 또는 그 다음 줄에 추가. (복사 굳이 필요 없음)
 ```
 cat $HOME/id_rsa.pub >> $HOME/.ssh/authorized_keys
 ```
