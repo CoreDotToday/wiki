@@ -91,6 +91,12 @@ mv /usr/hdp/current/zookeeper-server /usr/hdp/current/zookeeper-server-old
 ln -s /usr/hdp/2.6.5.0-292/zookeeper/ /usr/hdp/current/zookeeper-server
 ```
 
+## ambari-metrics-assembly
+```
+apt-get install --reinstall ambari-metrics-assembly
+```
+https://issues.apache.org/jira/browse/AMBARI-22746
+
 # Setting
 ## Hostname
 ```
