@@ -66,6 +66,12 @@ ambari-server setup --jdbc-db=mysql --jdbc-driver=/usr/share/java/mysql-connecto
 https://dev.mysql.com/downloads/connector/j/
 - https://dev.mysql.com/get/Downloads/Connector-J/mysql-connector-java-8.0.13.tar.gz
 
+```
+vi /etc/mysql/mysql.conf.d/mysqld.cnf
+# bind-address = 0.0.0.0
+```
+
+
 
 ## slider-client
 ```
