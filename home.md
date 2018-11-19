@@ -32,6 +32,7 @@
 # Open Source
 - [MongoDB](mongodb)
 - [ElasticSearch](elasticsearch)
+- [Ambari](ambari)
 
 # AWS
 - [Cognito](aws/cognito)
