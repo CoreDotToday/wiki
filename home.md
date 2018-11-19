@@ -35,6 +35,7 @@
 - [Ambari](ambari)
 
 # AWS
+- [VPC](aws/vpc)
 - [Cognito](aws/cognito)
 - [API Gateway](aws/apigateway)
 
