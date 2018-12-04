@@ -38,6 +38,7 @@
 - [VPC](aws/vpc)
 - [Cognito](aws/cognito)
 - [API Gateway](aws/apigateway)
+- [EBS](aws/ebs)
 
 # Culture
 - [Pair Programming](culture/pairing)
