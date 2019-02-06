@@ -91,4 +91,4 @@
         },
 				...
 ```
-`$ aws elasticbeanstalk update-environment --environment-name 'lawbot-1-0-dev' --solution-stack-name "64bit Amazon Linux 2018.03 v2.8.0 running Python 3.6"`
+`$ aws elasticbeanstalk update-environment --environment-name 'env-name' --solution-stack-name "64bit Amazon Linux 2018.03 v2.8.0 running Python 3.6"`
