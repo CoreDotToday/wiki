@@ -39,6 +39,7 @@
 - [Cognito](aws/cognito)
 - [API Gateway](aws/apigateway)
 - [EBS](aws/ebs)
+- [Elasticbeanstalk](aws/elasticbeanstalk)
 
 # Culture
 - [Pair Programming](culture/pairing)
